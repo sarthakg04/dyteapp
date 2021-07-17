@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/dyteapp/static/css/main.2812a554.chunk.css",
-    "main.js": "/dyteapp/static/js/main.86c463d4.chunk.js",
-    "main.js.map": "/dyteapp/static/js/main.86c463d4.chunk.js.map",
+    "main.css": "/dyteapp/static/css/main.bad61cee.chunk.css",
+    "main.js": "/dyteapp/static/js/main.dc5e4a1d.chunk.js",
+    "main.js.map": "/dyteapp/static/js/main.dc5e4a1d.chunk.js.map",
     "runtime-main.js": "/dyteapp/static/js/runtime-main.b985b726.js",
     "runtime-main.js.map": "/dyteapp/static/js/runtime-main.b985b726.js.map",
     "static/css/2.b7c10982.chunk.css": "/dyteapp/static/css/2.b7c10982.chunk.css",
@@ -10,14 +10,14 @@
     "static/js/2.b2fb1623.chunk.js.map": "/dyteapp/static/js/2.b2fb1623.chunk.js.map",
     "index.html": "/dyteapp/index.html",
     "static/css/2.b7c10982.chunk.css.map": "/dyteapp/static/css/2.b7c10982.chunk.css.map",
-    "static/css/main.2812a554.chunk.css.map": "/dyteapp/static/css/main.2812a554.chunk.css.map",
+    "static/css/main.bad61cee.chunk.css.map": "/dyteapp/static/css/main.bad61cee.chunk.css.map",
     "static/js/2.b2fb1623.chunk.js.LICENSE.txt": "/dyteapp/static/js/2.b2fb1623.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b985b726.js",
     "static/css/2.b7c10982.chunk.css",
     "static/js/2.b2fb1623.chunk.js",
-    "static/css/main.2812a554.chunk.css",
-    "static/js/main.86c463d4.chunk.js"
+    "static/css/main.bad61cee.chunk.css",
+    "static/js/main.dc5e4a1d.chunk.js"
   ]
 }
