@@ -45,7 +45,7 @@ https://user-images.githubusercontent.com/29622458/126042192-1616eb99-0798-4f3d-
 
 Sarthak Gupta: Sarthakanamika@gmail.com
 
-Project Link: [https://github.com/sarthakg04/dyteapp](https://github.com/sarthakg04/dyteapp)
+Project Link: [https://sarthakg04.github.io/dyteapp/](https://sarthakg04.github.io/dyteapp/p)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
