@@ -55,7 +55,10 @@ testApi();
   return (
     <>
       <div className="pane top-pane">
-      <select id="size_select">
+        <img class='imgnav' src='https://camo.githubusercontent.com/d852f3040a37e197b0cc6ed4a9750adb42d6c86d1c7c6a7de7443f4fce920a2a/68747470733a2f2f647974652d75706c6f6164732e73332e61702d736f7574682d312e616d617a6f6e6177732e636f6d2f647974652d6c6f676f2d6461726b2e737667'/>
+      <p id='textnav'>Select language : &nbsp;&nbsp;&nbsp;</p>
+      <select id="size_select" class='choice'>
+        
         <option value="option1">HTML</option>
         <option value="option2">CSS</option>
         <option value="option3">JS</option>
@@ -85,9 +88,10 @@ testApi();
         />
       </div>
       </div>
-      <a id='test1'><button>Download HTML</button></a>
-      <a id='test2'><button>Download CSS</button></a>
-      <a id='test3'><button>Download JS</button></a>
+      <hr/>
+      <a id='test1'><button class='button button2'>Download HTML</button></a>
+      <a id='test2'><button class='button button2'>Download CSS</button></a>
+      <a id='test3'><button class='button button2'>Download JS</button></a>
       <div className="pane">
         <iframe
           srcDoc={srcDoc}
