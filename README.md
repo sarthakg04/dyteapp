@@ -2,6 +2,14 @@
 [![Contributors][contributors-shield]][contributors-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
+
+## Deployed Project Link:
+https://sarthakg04.github.io/dyteapp/
+
+## Tasks Done:
+1. Created a React Front End for Online Live Code Editor
+## Addition Task:
+1. Used git.io pages to deploy a fully funtional website.
 <!-- GETTING STARTED -->
 ## Getting Started
 
@@ -45,7 +53,7 @@ https://user-images.githubusercontent.com/29622458/126042192-1616eb99-0798-4f3d-
 
 Sarthak Gupta: Sarthakanamika@gmail.com
 
-Project Link: [https://sarthakg04.github.io/dyteapp/](https://sarthakg04.github.io/dyteapp/p)
+Project Link: [https://sarthakg04.github.io/dyteapp/](https://sarthakg04.github.io/dyteapp/)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
