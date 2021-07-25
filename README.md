@@ -41,11 +41,7 @@ Install node_modules package in the src sub directory
    ```sh
    npm start
    ```
-### Project Images
-![image](https://user-images.githubusercontent.com/29622458/126042114-ac09f370-b84c-4e3d-aa1d-c84066b00c89.png)
 
-### Project Demo Video
-https://user-images.githubusercontent.com/29622458/126042192-1616eb99-0798-4f3d-a28d-d6a48156de93.mp4
 
 
 <!-- CONTACT -->
