@@ -18,7 +18,10 @@ function App() {
       </head>
       <script>
       function fill(){
-       document.body.style.backgroundImage = "url(${space})";
+        
+       var i=document.body.style.backgroundImage = "url(${space})";
+       i.height = 156;
+    i.width = 156;
       };
       text1='hello';
       </script>
@@ -29,16 +32,17 @@ function App() {
           }
           </script>
       <body>
-   
+      
           <p id="demo">cute</p>
-          <script>${js}</script>    
+          <script>${js}</script> 
+        
       </body>
       </html>
       `)
-var hiddenElement = document.getElementById('test1');
-hiddenElement.href = 'data:attachment/text,' + encodeURI([html]);
-hiddenElement.target = '_blank';
-hiddenElement.download = 'index.html';
+//var hiddenElement = document.getElementById('test1');
+//hiddenElement.href = 'data:attachment/text,' + encodeURI([html]);
+//hiddenElement.target = '_blank';
+//hiddenElement.download = 'index.html';
 
     }, 250)
     return () => clearTimeout(timeout)
@@ -53,10 +57,7 @@ hiddenElement.download = 'index.html';
           value={js}
           onChange={setJs}
         />
-      <div class="mobcontainer">
-      <section id="mobilescreen">
-      <div id="speaker"></div>
-      <section id="maincontainer">
+      <div class='phone'>
       
         <iframe
           srcDoc={srcDoc}
@@ -67,13 +68,12 @@ hiddenElement.download = 'index.html';
           height="100%"
         />
       
-      </section>
-      <div id="controlder"></div>
-      </section> 
+      
       </div>
 </div>
 </div>
-<a id='test1'><button class='button button2'>Download HTML</button></a>
+
+
     </>
   )
 }

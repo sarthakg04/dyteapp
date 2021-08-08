@@ -114,6 +114,7 @@ margin:0 auto;
 position:relative;
 overflow: hidden;
 height:100%;
+
 }
 #controlder
 {
@@ -135,4 +136,46 @@ background:#f2f2f2;
 margin:0px auto 15px;
 box-shadow:inset 0px 0px 10px 0px #bdbdbd, inset 0px 5px 0px 0px #bdbdbd;
 border:1px solid #c6c6c6;
+}
+/*Adding new css*/
+iframe{border-radius: 30px;}
+:root {
+  --main-bg-color: #444757;
+  --scnd-bg-color: #1E1F26;
+  --phone-bg-color: #dfe4ea;
+  --phone-width: 250px;
+  --phone-ratio: 2;
+  --phone-height: calc(var(--phone-width) * var(--phone-ratio));
+}
+
+* {
+  box-sizing: border-box
+}
+.phone {
+  float:right;
+  margin-right:25vw;
+  margin-top:5vh;
+  width: var(--phone-width);
+  height: var(--phone-height);
+  background: var(--phone-bg-color);
+  display: block;
+  border-radius: 30px;
+  border: 5px solid var(--scnd-bg-color);
+  position: relative;
+}
+
+.phone::before {
+  content: '';
+  position: absolute;
+  left: 25%;
+  top: 0;
+  width: 50%;
+  height: 3%;
+  background: var(--scnd-bg-color);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+#content{
+  height: 100px;
+  width:100px;
 }
