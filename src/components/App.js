@@ -2,11 +2,11 @@ import React, { useState, useEffect } from 'react';
 import Editor from './Editor'
 import useLocalStorage from '../hooks/useLocalStorage'
 import space from '../components/spaceship.png'
+import Navbar from './Navbar'
 function App() {
   const [html, setHtml] = useLocalStorage('html', '')
   const [css, setCss] = useLocalStorage('css', '')
   const [js, setJs] = useLocalStorage('js', '')
-  //const[python,setPy]=useLocalStorage('python')
   const [srcDoc, setSrcDoc] = useState('')
   useEffect(() => {
     const timeout = setTimeout(() => {
@@ -31,11 +31,13 @@ function App() {
             document.getElementById("demo").innerHTML = text1;
           }
           </script>
-      <body>
-      
+      <body style="background-image: url(${space}); no-repeat cover">
+      <div>
           <p id="demo">cute</p>
+          <pre> 
+          </pre>
           <script>${js}</script> 
-        
+        </div>
       </body>
       </html>
       `)
@@ -46,10 +48,12 @@ function App() {
 
     }, 250)
     return () => clearTimeout(timeout)
-  }, [html, css, js])
+  }, [js])
   return (
     <>
+    
     <div class="root">
+    <Navbar/>
       <div className="top-pane">
       <Editor
           language="javascript"
@@ -58,7 +62,6 @@ function App() {
           onChange={setJs}
         />
       <div class='phone'>
-      
         <iframe
           srcDoc={srcDoc}
           title="output"
@@ -67,8 +70,6 @@ function App() {
           width="100%"
           height="100%"
         />
-      
-      
       </div>
 </div>
 </div>

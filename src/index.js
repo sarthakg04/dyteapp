@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import './assets/css/Navbar.css'
 import App from './components/App';
 import $ from 'jquery';
 let headers = new Headers();
